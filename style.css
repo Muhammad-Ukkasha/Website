@@ -1,0 +1,101 @@
+/* 🌌 Soft Dreamy Body Styling */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background-color: #000000; /* transparent dark brown */
+  color: #FFFFFF;
+  font-family: 'Poppins', Georgia, serif;
+  text-align: center;
+  margin: 0;
+  padding: 50px 20px;
+  transition: background-color 0.8s ease;
+}
+
+/* ✨ Smooth Title */
+h1 {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 60px;
+  text-shadow: 2px 2px 5px rgba(255, 192, 203, 0.3); /* soft glow */
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+/* 💭 Paragraph */
+p {
+  color: #FFD700; 
+  font-size: 20px;
+  max-width: 700px;
+  line-height: 1.6;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+  animation-delay: 0.1s;
+}
+ 
+p5 {
+  color: #FFD700; 
+  font-size: 20px;
+  max-width: 700px;
+  line-height: 1.6;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+  animation-delay: 0.1s;
+}
+p6 {
+  color: #FFD700; 
+  font-size: 20px;
+  max-width: 700px;
+  line-height: 1.6;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+  animation-delay: 0.1s;
+}
+
+
+/* 🌸 Images */
+img {
+  width: 600px;
+  max-width: 90%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 192, 203, 0.3);
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+  animation-delay: 1s;
+}
+
+/* 🌷 Navigation Bar */
+nav {
+  background-color: #B8860B; /* soft pink, slightly see-through */
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  width: 100%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+nav a {
+  color: #1C1C1C;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #0A1172;
+  text-shadow: 0 0 6px #f06292;
+}
+
+/* 🌫️ Fade In Animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
